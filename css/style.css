@@ -1,0 +1,563 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.header-section {
+  width: 100%;
+  background: url("../img/hero.png") center top no-repeat;
+  background-size: cover;
+  padding: 20px 0px 180px;
+}
+
+.header-section .bg-light {
+  background: transparent !important;
+}
+
+.header-section .navbar-brand img {
+  width: 100%;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link.active {
+  color: #6500DE;
+  background: url("../img/layer.png") center bottom no-repeat;
+  background-size: contain;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin: 0px 5px;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover,
+.header-section .navbar-light .navbar-nav .nav-link:focus {
+  color: #6500DE;
+  background: url("../img/layer.png") center bottom no-repeat;
+  background-size: contain;
+}
+
+.header-section .btn-info {
+  color: #fff;
+  padding: 6px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 15px;
+  background: linear-gradient(to right, #6500DE, #396CF1);
+  border-radius: 38px;
+  border-color: transparent;
+}
+
+.header-section .btn-info:hover,
+.header-section .btn-info:focus {
+  color: #fff;
+  background: linear-gradient(to right, #396CF1, #6500DE);
+}
+
+.banner {
+  width: 100%;
+  padding: 70px 0px;
+}
+
+.inner-banner {
+  width: 100%;
+  padding: 120px 0px;
+  text-align: right;
+}
+
+.inner-banner h1 {
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 62px;
+  letter-spacing: 2px;
+}
+
+.inner-banner h1 span {
+  color: #6500DE;
+}
+
+.inner-banner .btn-primary {
+  color: #fff;
+  background-color: #F1F1F1;
+  padding: 6px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #6500DE, #396CF1);
+  border-radius: 38px;
+  border-color: transparent;
+}
+
+.inner-banner .btn-primary:hover, .inner-banner .btn-primary:focus {
+  color: #fff;
+  background: linear-gradient(to right, #396CF1, #6500DE);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 1px #91A9F3;
+}
+
+.highlight {
+  background: url("../img/highlight.png") center top no-repeat;
+  background-size: cover;
+  padding: 40px 0px;
+  position: relative;
+}
+
+.highlight img {
+  position: absolute;
+  top: -55px;
+}
+
+.highlight h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.feature {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.feature .inner-feature {
+  width: 100%;
+  padding: 80px;
+  background: url("../img/Fetures.png") right bottom no-repeat;
+  background-size: contain;
+  box-shadow: 1px 4px 10px #ccc;
+}
+
+.feature .inner-feature h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 800;
+  margin: 20px 30px;
+}
+
+.feature .inner-feature p {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 20px 30px 60px;
+}
+
+.feature .inner-feature p .percent {
+  font-size: 85px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #6500DE, #396CF1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.feature .inner-feature p .productivity {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.feature .Client {
+  width: 100%;
+  padding: 80px 0px 0px;
+  text-align: center;
+}
+
+.intro-quote {
+  width: 100%;
+  padding: 380px 0px;
+  background: url("../img/intro.png") center top no-repeat;
+  background-size: cover;
+}
+
+.intro-quote .quote {
+  width: 100%;
+  padding: 125px 0px 100px;
+  background: url("../img/Quote.png") center top no-repeat;
+  background-size: cover;
+}
+
+.inner-quote {
+  width: 54%;
+  margin: 0px auto;
+  padding: 30px 0px 90px;
+}
+
+.intro-quote .quote .inner-quote p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 500;
+  margin-left: 30px;
+}
+
+.intro-quote .quote .inner-quote h5 {
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 400;
+  margin-left: 30px;
+}
+
+.intro-quote .text {
+  width: 100%;
+  padding: 80px 30px;
+}
+
+.intro-quote .text h2 {
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 800;
+  margin: 20px 90px;
+}
+
+.intro-quote .text li {
+  list-style-type: none;
+}
+
+.intro-quote .text .btn-primary {
+  color: #000;
+  background-color: #F1F1F1;
+  padding: 6px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-left: 70px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 38px;
+  border-color: transparent;
+}
+.intro-quote .text .btn-primary:hover, .intro-quote .text .btn-primary:focus {
+  color: #fff;
+  background: linear-gradient(to right, #396CF1, #6500DE);
+}
+
+.effciency {
+  width: 100%;
+  padding: 80px 0px;
+}
+
+.effciency .text h2 {
+  width: 100%;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 400;
+  margin: 10px 15px;
+}
+
+.effciency .text p {
+  width: 100%;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 30px 0px;
+}
+
+.info-details li img {
+  margin: 10px 0px;
+  margin-right: 20px;
+}
+
+.info-details li a {
+  color: #000;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.effciency .text .btn-primary {
+  color: #fff;
+  background-color: #F1F1F1;
+  padding: 6px 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 100;
+  margin-top: 100px;
+  margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #6500DE, #396CF1);
+  border-radius: 38px;
+  border-color: transparent;
+}
+
+.effciency .text .btn-primary:hover, .effciency .text .btn-primary:focus {
+  color: #fff;
+  background: linear-gradient(to right, #396CF1, #6500DE);
+}
+
+.effciency li {
+  list-style-type: none;
+}
+
+.effciency .text .fa {
+  padding-left: 10px;
+}
+
+.effciency .image img {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.design {
+  width: 100%;
+  background-color: #FCFCFC;
+}
+
+.design .text h2 {
+  text-align: center;
+  padding: 80px 0px 20px;
+  font-size: 42px;
+  line-height: 52px;
+  font-weight: 600;
+}
+
+.design .text p {
+  text-align: center;
+  padding: 0px 0px 40px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.design .inner-design .pic {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px 30px;
+}
+
+.design .inner-design h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.design .inner-design p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.card-sec {
+  width: 100%;
+}
+
+.card-sec h2 {
+  width: 100%;
+  font-size: 58px;
+  line-height: 62px;
+  font-weight: 800;
+  padding: 80px 0px;
+  text-align: center;
+}
+
+.card-sec .card {
+  width: 100%;
+  background: url("../img/bc.png") center top no-repeat;
+  background-size: cover;
+}
+
+.card-sec .card .card-text {
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 120px 0px;
+}
+
+.card-sec .card-body img {
+  width: 15%;
+  margin: 0px 120px;
+}
+
+.card-sec .card-body h5 {
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 800;
+  padding: 8px 0px 0px;
+  text-align: center;
+}
+
+.card-sec .card-body p {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 0px 0px 10px;
+  text-align: center;
+}
+
+.card-sec .card-body .active-card p {
+  background: linear-gradient(to right, #6500DE, #396CF1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faq {
+  width: 100%;
+  padding: 80px 0px 0px;
+  background: url("../img/footer.png") center bottom no-repeat;
+}
+
+.faq .inner-faq {
+  width: 100%;
+  padding: 80px;
+  background: url("../img/white.png") center top no-repeat;
+  background-size: cover;
+  box-shadow: 1px 4px 10px #2422220A;
+}
+
+.faq .inner-faq h2 {
+  font-size: 52px;
+  line-height: 62px;
+  font-weight: 600;
+  text-align: center;
+  padding: 120px 0px;
+}
+
+.faq .inner-faq h6 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #6500DE;
+  margin-left: 50px;
+}
+
+.faq .inner-faq p {
+  width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-left: 50px;
+  padding-bottom: 60px;
+}
+
+.faq .inner-faq hr {
+  margin-left: 50px;
+  color: #A6A6A6;
+}
+
+.faq .inner-faq h5 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 50px;
+  letter-spacing: 1px;
+}
+
+.footer {
+  width: 100%;
+  padding: 200px 0px;
+  background-size: auto;
+  margin: -140px 0px;
+}
+
+.footer .navbar-nav a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+
+.footer .text p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 50px;
+  padding-top: 18px;
+}
+
+/*
+           ## Device=Most of the Smartphones Mobiles(portrait)
+          ##Screen=B/w 320px to 479px
+*/
+@media(min-width:320px) and (max-width:480px) {
+
+  /*********Code start*********/
+  .header-section .bg-light {
+    background: transparent !important;
+  }
+
+  .header-section {
+    width: 100%;
+    background: url("../img/hero.png") center top no-repeat;
+    background-size: auto;
+  }
+
+  .header-section .navbar-light .navbar-nav .nav-link.active {
+    background: url("../img/layer.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .header-section .btn-info:hover,
+  .header-section .btn-info:focus {
+    background: url("../img/layer.png") left bottom no-repeat;
+    background-size: auto;
+  }
+
+  .banner {
+    padding: 0px 0px;
+  }
+
+  .inner-banner h1 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+  }
+
+  /*********Code end*********/
+  /*
+             ## Device=Most of the Smartphones Mobiles(Landscape)
+            ##Screen=B/w 481px to 767px
+  */
+  @media(min-width:481px) and (max-width:767px) {
+
+    /*********Code start*********/
+    .banner {
+      padding: 0px 0px;
+    }
+
+    /*********Code end*********/
+    /*
+               ## Device=Tablets,Ipads(portrait)
+              ##Screen=B/w 768px to 1024px
+    */
+    @media(min-width:768px) and (max-width:1024px) {
+      /*********Code start*********/
+      /*********Code end*********/
+    }
